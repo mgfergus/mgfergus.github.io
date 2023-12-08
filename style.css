@@ -1,0 +1,117 @@
+body {
+  font-family : Verdana, Arial, sans-serif;
+  font-size:12px;
+}
+
+img {
+  border-radius:30px;
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+  width: 150px;
+}
+
+h3 { font-size:150% }
+
+h3.sub { font-size:125% }
+
+p {
+    color:rgb(17, 0, 255);
+    font-size:16px;
+    margin:10px;
+}
+
+p.quotefont { font-family:'Poiret One'}
+
+ul.favcontent {
+    font-size:15px;
+    margin:-10px;
+}
+
+ul.regnav { font-size:120%; }
+
+.youtube {
+    display:inline-block;
+    background-color:rgb(164, 0, 0);
+}
+
+.white { color:white; }
+
+.subjectcolor { background-color:salmon; }
+
+.quoteback { background-color:rgb(255, 169, 160)}
+
+.quotestyle { 
+    font-style:italic;
+    font-weight:bold;
+}
+
+.homenav {
+    background-color:rgb(211, 211, 211);
+    margin:30px;
+}
+
+.blue { color:blue; }
+
+.red { color:rgb(162, 0, 0); }
+
+.green { color:green; }
+
+.current { font-weight:900; }
+
+.center { text-align:center; }
+
+#navloc li {
+    display:inline;
+    background-color:transparent;
+    padding:10px;
+    margin:0px;
+    font-size:90%;
+}
+
+#navcontainer {
+    border: 2px solid black;
+    display: flex;
+    justify-content: stretch;
+    gap: 3%;
+}
+
+@media(max-width: 600px)
+{
+  h1 { font-size:250% }
+  h3 { font-size:250% }
+  h3.sub { font-size:200% }
+
+  p {
+    font-size: 24px;
+  }
+
+  nav {
+    font-size: 15px;
+  }
+
+  ul {
+    font-size: 24px;
+  }
+}
+
+@media(max-width: 1000px)
+{
+  h1 { font-size:45px }
+  h3 { font-size:200% }
+  h3.sub { font-size:175% }
+
+  p {
+    font-size: 20px;
+  }
+
+  nav {
+    font-size: 15px;
+  }
+
+  ul {
+    font-size: 20px;
+  }
+
+  ul.favcontent {
+    font-size: 20px;
+  }
+}
