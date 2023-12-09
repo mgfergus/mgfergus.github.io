@@ -82,7 +82,7 @@
                         </p>
                         <div class="containerbutton" id="motivatebox">
                               <div class="centerbutton">
-                                    <button onclick="surprise()">Click if you're motivated!</button> 
+                                    <button id="motivatebutton" onclick="surprise()">Click if you're motivated!</button> 
                               </div>
                         </div>
                   </div>
@@ -106,7 +106,7 @@
                         img.src = "drawing.svg";
                         var src = document.getElementById("motivatebox");
                         src.appendChild(img);
-                        //document.getElementById("motivate").src = "drawing.svg";
+                        document.getElementById("motivatebutton").style.display = "none";
                   }
             </script>
 
