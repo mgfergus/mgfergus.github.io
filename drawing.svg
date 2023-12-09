@@ -4,10 +4,10 @@
     stroke="lightgrey"
     d="M20,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z" />
 
-  <circle r="5" fill="red">
+  <polygon points="100,0 60,100 150,39 50,39 140,100" fill="magenta">
     <animateMotion
       dur="10s"
       repeatCount="indefinite"
       path="M20,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z" />
-  </circle>
+  </polygon>
 </svg>
