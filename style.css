@@ -71,7 +71,6 @@ ul.regnav { font-size:120%; }
 .containerbutton {
   height: 200px;
   position: relative;
-  border: 3px solid green;
 }
 
 #navloc li {
